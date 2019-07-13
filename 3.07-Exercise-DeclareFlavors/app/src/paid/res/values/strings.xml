@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="product_flavor_name">Paid</string>
+    <string name="joke">Doctor: "I'm sorry but you suffer from a terminal illness and have only 10 to live."
+        \nPatient: "What do you mean, 10? 10 what? Months? Weeks?!"
+        \nDoctor: "Nine."</string>
 </resources>
