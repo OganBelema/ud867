@@ -8,6 +8,7 @@ buildscript {
     dependencies {
         classpath 'com.google.cloud.tools:endpoints-framework-gradle-plugin:1.0.2'
     }
+
 }
 
 android {
@@ -16,7 +17,7 @@ android {
 
     defaultConfig {
         applicationId "com.udacity.gradle.builditbigger"
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -47,4 +48,6 @@ dependencies {
     })
 
     testImplementation 'junit:junit:4.12'
+    implementation project(path: ':tellJoke')
+    implementation project(path: ':jokeui')
 }
